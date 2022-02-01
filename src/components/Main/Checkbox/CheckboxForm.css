@@ -1,0 +1,24 @@
+.box-form {
+  background-color: var(--color-white);
+  font-size: var(--font-default);
+  cursor: pointer;
+
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  z-index: -99;
+  padding: 0.5rem 0.4rem;
+}
+
+@media (max-width: 900px) {
+  .box-form {
+    padding: 0.2rem 0.1rem;
+  }
+}
+
+@media (max-width: 600px) {
+}

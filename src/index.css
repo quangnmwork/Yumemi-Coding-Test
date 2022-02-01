@@ -4,6 +4,7 @@ body {
     sans-serif;
   font-size: 62.5%;
   -webkit-font-smoothing: antialiased;
+  background-color: var(--teal-50);
   -moz-osx-font-smoothing: grayscale;
 }
 *,
@@ -14,11 +15,9 @@ body {
   padding: 0;
 }
 :root {
-  --color-head: #81e6d9;
-  --color-white: #fff;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  --teal-200: #81e6d9;
+  --teal-100: #b2f5ea;
+  --teal-50: #e6fffa;
+  --color-white: #ffff;
+  --font-default: 1.1rem;
 }

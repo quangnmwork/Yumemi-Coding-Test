@@ -1,0 +1,33 @@
+.select-container {
+  max-height: 100px;
+  z-index: 2;
+  opacity: 1;
+  overflow-y: scroll;
+  transition: all 0.3s ease-in-out;
+}
+.select-container__invalid {
+  max-height: 0px;
+  opacity: 0;
+  z-index: 2;
+  overflow-y: scroll;
+  transition: all 0.3s ease-in-out;
+}
+.select-container::-webkit-scrollbar {
+  width: 10px;
+}
+
+.select-container::-webkit-scrollbar-thumb {
+  background-color: var(--teal-200);
+  border-radius: 1px;
+  height: 50px;
+}
+
+.select-item {
+  padding-left: 0.2rem;
+  font-size: var(--font-default);
+  background-color: var(--color-white);
+}
+.select-item:hover {
+  cursor: pointer;
+  background-color: var(--teal-100);
+}

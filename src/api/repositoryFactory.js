@@ -5,6 +5,7 @@ const repositories = {
   prefectures: prefectureRepository,
 };
 
-export const RepositoryFactory = {
+const RepositoryFactory = {
   get: (name) => repositories[name],
 };
+export default RepositoryFactory;
