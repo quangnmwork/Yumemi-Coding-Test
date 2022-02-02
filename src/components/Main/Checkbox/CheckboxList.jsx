@@ -12,12 +12,12 @@ const CheckboxList = () => {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(getPrefecture());
-  }, []);
+  }, [dispatch]);
   return (
     <>
       {
         <Skeleton
-          isLoading={prefecture.fetchStatus == "pending" ? false : true}
+          isLoading={prefecture.fetchStatus === "pending" ? false : true}
         >
           <div className="container">
             <CheckboxForm />

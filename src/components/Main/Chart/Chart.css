@@ -1,0 +1,13 @@
+.chart {
+  max-width: 95%;
+  margin: 10px auto;
+  animation: fade 0.3s ease-in-out;
+}
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

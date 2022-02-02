@@ -1,9 +1,7 @@
 .container {
-  width: 55%;
+  width: 65%;
   margin: 30px auto;
   border: 3px solid var(--teal-100);
-  position: relative;
-  z-index: 999;
 }
 @media (max-width: 900px) {
   .container {

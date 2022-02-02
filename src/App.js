@@ -1,4 +1,5 @@
 import Header from "./components/Header/Header";
+import Chart from "./components/Main/Chart/Chart";
 import CheckboxList from "./components/Main/Checkbox/CheckboxList";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
       <Header />
       <main>
         <CheckboxList />
+        <Chart />
       </main>
     </>
   );

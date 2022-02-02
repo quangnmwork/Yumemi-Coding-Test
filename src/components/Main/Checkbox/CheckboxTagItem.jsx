@@ -3,9 +3,9 @@ import { TiDeleteOutline } from "react-icons/ti";
 import "./CheckboxTags.css";
 import { useDispatch } from "react-redux";
 import { prefectureActions } from "../../../redux/prefectureSlice";
-const CheckboxTagItem = (props) => {
+const CheckboxTagItem = props => {
   const dispatch = useDispatch();
-  const handleDeleteItem = (e) => {
+  const handleDeleteItem = e => {
     e.preventDefault();
     dispatch(prefectureActions.toggleShowOption());
     dispatch(prefectureActions.deletePrefecture(e.currentTarget.dataset.id));

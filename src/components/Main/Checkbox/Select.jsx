@@ -1,9 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { useSelector } from "react-redux";
-import { getPrefecture } from "../../../redux/prefectureSlice";
+
 import "./Select.css";
 import SelectItem from "./SelectItem";
-import { useDispatch } from "react-redux";
 
 const Select = () => {
   const prefecture = useSelector((state) => state.prefecture);
