@@ -1,0 +1,16 @@
+.container {
+  width: 65%;
+  margin: 30px auto;
+  border: 3px solid var(--teal-100);
+}
+@media (max-width: 900px) {
+  .container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 95%;
+  }
+}

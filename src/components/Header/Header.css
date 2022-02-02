@@ -1,0 +1,14 @@
+.header {
+  background-color: var(--teal-200);
+}
+.header__brand {
+  color: var(--color-white);
+  font-size: 1.6rem;
+  padding: 0.8rem 0rem 0.8rem 2rem;
+}
+@media (max-width: 900px) {
+  .header__brand {
+    padding-left: 1rem;
+    font-size: 1.2rem;
+  }
+}
